@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Travel</string>
+
+    <!--导航菜单选项-->
+    <string-array name="tab_name_array">
+        <item name="tab_home">主页</item>
+        <item name="tab_guide">导游</item>
+        <item name="tab_mine">我的</item>
+    </string-array>
 </resources>
