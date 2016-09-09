@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Travel</string>
+    <string name="path">路线</string>
+    <string name="beauty_spot">景点</string>
+    <string name="store">商城</string>
 
     <!--导航菜单选项-->
     <string-array name="tab_name_array">

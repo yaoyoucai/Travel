@@ -1,21 +1,22 @@
 package shbd.travel.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import shbd.travel.activity.R;
+import shbd.travel.base.BaseFragment;
 
 /**
  * Created by yh on 2016/9/8.
  */
-public class MineFragment extends Fragment {
-    @Nullable
+public class MineFragment extends BaseFragment {
+
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_mine,container,false);
+    protected void initView(Bundle savedInstanceState) {
+
+    }
+
+    @Override
+    public int getFragmentLayoutId() {
+        return R.layout.fragment_mine;
     }
 }

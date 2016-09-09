@@ -10,6 +10,12 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--高德地图key-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="fb50e71307cdc2829d2668c517599d63" />
+
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,4 +39,5 @@
         android:smallScreens="true" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

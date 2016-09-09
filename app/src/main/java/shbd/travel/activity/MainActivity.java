@@ -12,7 +12,7 @@ import java.util.List;
 import shbd.travel.base.BaseActivity;
 import shbd.travel.bean.Tab;
 import shbd.travel.fragment.SmartGuideFragment;
-import shbd.travel.fragment.HomeFragment;
+import shbd.travel.fragment.home.HomeFragment;
 import shbd.travel.fragment.MineFragment;
 import shbd.travel.utils.UIUtils;
 import shbd.travel.widget.FragmentTabHost;
