@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageViewWithText">
+        <attr name="imagewidth" format="dimension"/>
+        <attr name="imageheight" format="dimension"/>
+        <attr name="imagesrc" format="reference"/>
+        <attr name="textsize" format="dimension"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="textcontent" format="string"/>
+    </declare-styleable>
+</resources>
